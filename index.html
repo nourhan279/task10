@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body class="bg-black">
+    <h1 class="text-center text-white mt-10 pb-8 text-8xl">I'm John Doe.</h1>
+    <p class="text-center text-white text-3xl">photographer and Web Designer</p>
+
+    <div class="bg_img w-full bg-black my-44">
+      <div
+        class="test flex flex-col w-44 align-center justify-center h-screen text-white"
+      >
+        <ul
+          class="nav text-custom-gray fixed top-0 flex flex-col space-y-28 align-center h-screen"
+        >
+          <div class="relative">
+            <img class="image" src="./assets/man_smoke.jpg" />
+            <div class="absolute inset-0 text-custom-gray2 bg-opacity-50"></div>
+          </div>
+          <li class="nav-item home bg-img(url)">
+            <a class="nav-link active home" aria-current="page" href="#Top"
+              ><i class="fa-solid fa-house-chimney"></i><br />HOME</a
+            >
+          </li>
+          <li class="nav-item hover:bg-black">
+            <a class="nav-link" href="#about"
+              ><i class="fa-solid fa-user"></i><br />ABOUT</a
+            >
+          </li>
+          <li class="nav-item hover:bg-black">
+            <a class="nav-link" href="#photos"
+              ><i class="fa-solid fa-eye"></i><br />PHOTOS</a
+            >
+          </li>
+          <li class="nav-item hover:bg-black">
+            <a class="nav-link" href="#contact"
+              ><i class="fa-solid fa-envelope"></i><br />CONTACT</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="about" class="text-xl container text-white bg-black w-7/12 mx-96">
+      <h1 class="my-10 text-5xl">My Name</h1>
+      <hr class="my-10 w-44" />
+      <p class="text-xl text-gray-400 mb-28">
+        Some text about me. Some text about me. I am lorem ipsum consectetur
+        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+        qui officia deserunt mollit anim id est laborum consectetur adipiscing
+        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+        ut aliquip ex ea commodo consequat.
+      </p>
+    </div>
+
+    <div class="text-xl container text-white bg-black w-7/12 mx-96">
+      <h1 class="my-12 text-5xl">My skills</h1>
+      <p class="mb-4 tracking-widest">photography</p>
+      <div class="container flex flex-row h-9 mb-8">
+        <div class="flex-grow bg-gray-400"></div>
+        <div class="flex w-1/12 bg-white"></div>
+      </div>
+
+      <p class="mb-4 tracking-widest">Web Design</p>
+      <div class="container flex flex-row h-9 mb-8">
+        <div class="flex-grow bg-gray-400"></div>
+        <div class="flex w-3/12 bg-white"></div>
+      </div>
+
+      <p class="mb-4 tracking-widest">Photoshop</p>
+      <div class="container flex flex-row h-9 mb-8">
+        <div class="flex-grow bg-gray-400"></div>
+        <div class="flex w-2/6 bg-white"></div>
+      </div>
+
+      <div
+        class="container flex justify-around items-center flex-row bg-white h-36 mb-10"
+      >
+        <div class="flex flex-col items-center text-black">
+          <div class="text-xg">11+</div>
+          <div class="text-2xs">partners</div>
+        </div>
+        <div class="flex flex-col items-center text-black">
+          <div class="text-xg">55+</div>
+          <div class="text-2xs">Projects Done</div>
+        </div>
+        <div class="flex flex-col items-center text-black">
+          <div class="text-xg">89+</div>
+          <div class="text-2xs">Happy Clients</div>
+        </div>
+        <div class="flex flex-col items-center text-black">
+          <div class="text-xg">150+</div>
+          <div class="text-2xs">Meetings</div>
+        </div>
+      </div>
+      <button class="w-80 h-14 text-black bg-white mb-16 hover:bg-gray-400">
+        <i class="fa-solid fa-download blk mx-4"></i>Download Resume
+      </button>
+
+      <div class="text-xl container text-white bg-black w-7/12 mb-28">
+        <h1 class="my-10 text-5xl">The Price</h1>
+
+        <div class="container flex flex-row space-x-4">
+          <!-- Basic Plan Table -->
+          <table
+            class="border border-solid border-gray-300 flex-grow w-7/12 bg-white text-black hover:bg-gray-300"
+          >
+            <thead>
+              <tr>
+                <th class="py-10 bg-gray-400 px-72">Basic</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="py-7 text-center border-b border-gray-300">
+                  Web Design
+                </td>
+              </tr>
+              <tr>
+                <td class="py-7 text-center border-b border-gray-300">
+                  Photography
+                </td>
+              </tr>
+              <tr>
+                <td class="py-7 text-center border-b border-gray-300">
+                  5GB Storage
+                </td>
+              </tr>
+              <tr>
+                <td class="py-7 text-center border-b border-gray-300">
+                  Mail Support
+                </td>
+              </tr>
+              <tr>
+                <td class="py-7 text-center border-b border-gray-300">
+                  $10 per month
+                </td>
+              </tr>
+              <tr>
+                <td
+                  class="py-10 text-center border-b border-gray-400 bg-gray-400"
+                >
+                  <button
+                    class="pt-2 pb-5 px-7 bg-white w-30 h-12 text-black hover:bg-black hover:text-white"
+                  >
+                    Sign Up
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <!-- Pro Plan Table -->
+          <table
+            class="border border-solid border-gray-300 flex-grow w-7/12 bg-white text-black hover:bg-gray-300"
+          >
+            <thead>
+              <tr>
+                <th class="py-10 px-72 bg-gray-400">Pro</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="py-7 text-center border-b border-gray-300">
+                  Web Design
+                </td>
+              </tr>
+              <tr>
+                <td class="py-7 text-center border-b border-gray-300">
+                  Photography
+                </td>
+              </tr>
+              <tr>
+                <td class="py-7 text-center border-b border-gray-300">
+                  5GB Storage
+                </td>
+              </tr>
+              <tr>
+                <td class="py-7 text-center border-b border-gray-300">
+                  Endless Support
+                </td>
+              </tr>
+              <tr>
+                <td class="py-7 text-center border-b border-gray-300">
+                  $25 per month
+                </td>
+              </tr>
+              <tr>
+                <td
+                  class="py-10 text-center border-b border-gray-400 bg-gray-400"
+                >
+                  <button
+                    class="bg-white w-30 pt-2 pb-5 px-7 h-12 text-black hover:bg-black hover:text-white"
+                  >
+                    Sign Up
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="w-7/12 h-28 text-white mb-96">
+        <h1 class="my-10 text-5xl">My Reputation</h1>
+        <div class="flex items-center mb-12">
+          <img
+            class="w-28 h-28 rounded-full mr-4"
+            src="./assets/cam.jpg"
+            alt="Chris Fox"
+          />
+          <div>
+            <p class="text-gray-400 text-2xl">Chris Fox</p>
+            <p class="text-gray-400 text-2xl">CEO at Mighty Schools</p>
+            <p class="text-2xl text-gray-400">
+              Lorem ipsum dolor sit amet consectetur.
+            </p>
+          </div>
+        </div>
+        <div class="flex items-center mb-80">
+          <img
+            class="w-28 h-28 rounded-full mr-4"
+            src="./assets/girl.jpg"
+            alt="Rebecca Flex"
+          />
+          <div>
+            <p class="text-gray-400 text-2xl">Rebecca Flex</p>
+            <p class="text-gray-400 text-2xl">CEO at Company</p>
+            <p class="text-2xl text-gray-400">
+              Lorem ipsum dolor sit amet consectetur.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div id="photos" class="container w-8/12 bg-black text-white mb-96">
+        <h1 class="my-10 text-5xl">My Photos</h1>
+        <hr class="my-10 w-80" />
+        <div class="grid grid-cols-12 gap-4">
+          <div class="col-span-6 row-span-1">
+            <img
+              class="w-full h-full object-cover"
+              src="./assets/1.jpg"
+              alt="Photo 1"
+            />
+          </div>
+          <div class="col-span-6 row-span-3">
+            <img
+              class="w-full h-full object-cover"
+              src="./assets/2.jpg"
+              alt="Photo 2"
+            />
+          </div>
+          <div class="col-span-6 row-span-6">
+            <img
+              class="w-full h-full object-cover"
+              src="./assets/3.jpg"
+              alt="Photo 3"
+            />
+          </div>
+          <div class="col-span-6 row-span-2">
+            <img
+              class="w-full h-full object-cover"
+              src="./assets/4.jpg"
+              alt="Photo 4"
+            />
+          </div>
+          <div class="col-span-6 row-span-2">
+            <img
+              class="w-full h-full object-cover"
+              src="./assets/1.jpg"
+              alt="Photo 6"
+            />
+          </div>
+          <div class="col-span-6 row-span-2">
+            <img
+              class="w-full h-full object-cover"
+              src="./assets/5.jpg"
+              alt="Photo 5"
+            />
+          </div>
+          <div class="col-span-6 row-span-2">
+            <img
+              class="w-full h-full object-cover"
+              src="./assets/7.jpg"
+              alt="Photo 7"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div id="contact" class="container text-white w-7/12">
+        <h1 class="my-10 text-5xl">Contact ME</h1>
+        <hr class="my-10 w-80" />
+        <div class="mb-10">
+          <i class="fa-solid fa-location-dot mx-4"></i> Chicago, US
+        </div>
+        <div class="mb-10">
+          <i class="fa-solid fa-phone mx-4"></i>Phone: +00 151515
+        </div>
+        <div class="mb-10">
+          <i class="fa-solid fa-envelope mx-4"></i>Emial: mail@mail.com
+        </div>
+      </div>
+      <p class="text-2xl mb-7 mt-10">
+        Lets get in touch and talk about your next project.
+      </p>
+      <form method="get" action="" class="w-full">
+        <input
+          class="w-full border pr-80 pl-4 py-6 mb-10"
+          type="text"
+          name="name"
+          value=""
+          placeholder="Name"
+          required
+        />
+        <br />
+        <input
+          type="email"
+          class="w-full border pr-80 pl-4 py-6 mb-10"
+          name="email"
+          value=""
+          placeholder="Email"
+          required
+        />
+        <br />
+        <input
+          class="w-full border pr-80 pl-4 py-6 mb-10"
+          type="text"
+          name="subject"
+          value=""
+          placeholder="Subject"
+          required
+        />
+        <br />
+        <input
+          class="w-full border pr-80 pl-4 py-6 mb-10"
+          type="text"
+          name="comment"
+          value=""
+          placeholder="comment"
+          required
+        />
+        <br />
+        <button
+          type="submit"
+          name="submit"
+          class="text-black border bg-white hover:bg-gray-400 font-bold py-2 pt-4 px-4"
+        >
+          <i class="fa-solid fa-paper-plane text-xl"></i> SEND MESSAGE
+        </button>
+      </form>
+    </div>
+
+    <footer class="text-gray-500 bg-black w-7/12 mt-60 h-44">
+      <div class="text-gray-500 bg-black w-7/12 pl-96">
+        <i class="fa-brands fa-square-facebook pr-3"></i
+        ><i class="fa-brands fa-instagram pr-3"></i
+        ><i class="fa-brands fa-square-snapchat pr-3"></i
+        ><i class="fa-brands fa-pinterest-p pr-3"></i
+        ><i class="fa-brands fa-twitter pr-3"></i
+        ><i class="fa-brands fa-linkedin pr-3"></i>
+      </div>
+    </footer>
+  </body>
+</html>

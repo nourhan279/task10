@@ -1,0 +1,49 @@
+.image {
+  width: 176px;
+  height: 190px;
+}
+.nav-item {
+  margin: 0 !important;
+  padding: 50px;
+  background-color: rgb(64 64 64);
+}
+i {
+  font-size: 40px;
+  /* color: white; */
+  display: flex;
+  align-self: center;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.home {
+  background-color: black;
+}
+
+.home:hover {
+  background-color: rgb(115 115 115) !important;
+  color: white;
+}
+.text-custom-gray {
+  background-color: rgb(64 64 64) !important;
+}
+.text-custom-gray2 {
+  background-color: rgba(115, 115, 115, 0.5) !important;
+}
+.bg_img {
+  background-image: url("./assets/man_smoke.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: contain;
+  background-position: top;
+  min-height: 1500px;
+}
+
+/* .bg_img::before {
+   content: "I'm John Doe .";
+   con
+  } */
+
+.blk > i {
+  color: black !important;
+  background-color: black !important;
+}
